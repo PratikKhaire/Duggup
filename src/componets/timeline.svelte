@@ -51,7 +51,7 @@
               class="ml-[40px] mt-[-70px] rounded-[12px] border-[0.5px] border-solid border-#D0D5DD bg-#FFFFFF"
             >
               <img
-                src="src\asseste\Image Frame.png"
+                src="https://res.cloudinary.com/dlk3xjdmh/image/upload/v1710217506/ymatcfrbbjmbyxgbllhn.png"
                 alt=""
                 class="w-[344zpx] h-[136px] rounded-tl-[12px] rounded-tr-[12px] rounded-bl-0 rounded-br-0"
               />
