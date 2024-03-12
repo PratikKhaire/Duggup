@@ -1,38 +1,54 @@
-# create-svelte
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# Sveltekit project
+# Svelte Frontend Project with Tailwind CSS
 
-## Creating a project
+This project is a Svelte frontend application that utilizes Tailwind CSS for styling.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Getting Started
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+To get started with this project, follow these steps:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Clone the repository
+2. Install dependencies by running `$ npm install`
+3. Start the development server by running `$ npm run dev`
 
-## Developing
+## Project Structure
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- `src/`: Contains the source code of the Svelte application
+- `public/`: Contains static assets
+- `tailwind.config.js`: Tailwind CSS configuration file
 
-```bash
-npm run dev
+## Tailwind CSS
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs easily.
 
-## Building
+For more information on Tailwind CSS, visit [Tailwind CSS Documentation](https://tailwindcss.com/docs).
 
-To create a production version of your app:
+## Development
 
-```bash
-npm run build
-```
+During development, you can use the following npm scripts:
 
-You can preview the production build with `npm run preview`.
+- `$ npm run dev`: Start the development server
+- `$ npm run build`: Build the production-ready application
+- `$ npm run start`: Start the production server
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Contributing
+
+Feel free to contribute to this project by submitting issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+![Logo](data:image/jpeg;base64,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tzJz6rF6u3lWt7j5eEd/zipFg0NVVzxV3t8kMbjvGIn87J7R7vr6K2ahutFpyy9jFuMk7Ls6aAHjywD0Hef7qC1Fr1ke9T2QB7uRqXjyR7I7+p4dVXbPp266lqDVzve2F5y+qnyS72R3/UvUXLdrW1jRvVT69/TxNi9kaZGfVuURyp7+3bszony3uSqweyp4SCfnO4Ae7K1BcNmtVLZqFtJRtIaOLnHznu7yV3LQxLHgWopnmxdpZcZeRNyOXKHDe6ispbVVVFtpm1NXGzejhcSN/HMcO/GeHeqbpTaTRVkLodQSR0dWHHDwwiN4+ndI5cVoCr140VYLxUOqKugAnccukheYy4+k4OCfWVajRQUTahqK2X2OhoLQ74ZOybeMkbTjiMBjfSSSOXoC0+y00lFZqClnOZYKeON5z3hoBUfZdIWKyTCegoWiccpZHF7h0yeHgp1JkV7Xtr/C+la6BjczRs7aLA47zOOB1GR4rKtNmfVF709bKjyqegYQe8FjXF5z1AYz3LdlD2fS9lslVJU2yibBNI0sc4Pc7yc5wASccQOSRImFU9qf6D1/tw/1WK2LkuttpLvQyUVwi7WnkILmbxbnBBHEEHmAuCi6E1fYLXpWhoq+4NiqIu032GN5xl7iOIGORCn/AMf9LfKrf2Mn3V8/k90t8mfxEv3k/J7pb5M/iJfvLvAWhERcBOfNEQUe/wCgI6iV09nlZAXcTBJncz80jl0+pV4aDvnabvYQAfrmUY+36FrKKjc2dYrq1009mvZ25l2qN3WJ91NsGg6WjcJ7q5tXMOIiA/Nt6587x4epXEANADQABwAHcv1FZtWaLUaURooZOVeyat67VqIiKVXEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERB/9k=)
+
+
+# Hi, I'm pratik! 👋
+
+
+## Demo
+
+Insert gif or link to demo
+
+
