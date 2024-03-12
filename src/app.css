@@ -6,22 +6,34 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
-    font-family: 'Open Sans', sans-serif;
+
+*{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #4D4D4D;
+  font-variation-settings:
+    "slnt" 0;
 }
+
 
 h1,
 h2,
 h3,
 .poppins {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter';
+    color: #4D4D4D;
 }
 
 span {
     font-family: inherit;
     font-weight: inherit;
+    color: #4D4D4D;
 }
-
+.bgcolor {
+    background-color: #FCFCFF;
+}
 .bgGrid {
     background-size: 40px 40px;
     background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
@@ -40,12 +52,30 @@ button,
     background-color: white;
     cursor: pointer;
     border-color: #4D4D4D;
+    align-items: center;
     
     box-shadow: 0px 4px 0px 0px #4D4D4D;
 ;
 }
 
+    .horizontal_line {
+            width: 1424px;
+            height: 0.5px;
+            border-top: 2px dotted #525C69;
+            line-height: 20%;
+        }
 
+.more{
+    width: 22.4px;
+height: 5.6px;
+top: 11.2px;
+left: 2.8px;
+line-height: 20%;
+
+
+border: 3px dotted #A5B9D3
+
+}
 
 
 
